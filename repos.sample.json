@@ -1,0 +1,22 @@
+{
+  "Repositories": [
+    {
+      "Name": "Example Repo",
+      "Path": "C:\\Develop\\example-repo",
+      "MainBranch": "main",
+      "WorktreeRoot": "C:\\Develop",
+      "ReviewCommand": "cmd.exe",
+      "ReviewArguments": [
+        "/c",
+        "code.cmd",
+        "-n",
+        "."
+      ],
+      "GitCommandOptions": {
+        "TimeoutSeconds": 300,
+        "DisableTerminalPrompt": true,
+        "EnableTrace": false
+      }
+    }
+  ]
+}
