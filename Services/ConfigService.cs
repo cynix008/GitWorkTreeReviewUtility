@@ -7,6 +7,7 @@ public static class ConfigService
 {
     public static ConfigLoadResult LoadOrCreate(string configPath)
     {
+        Console.WriteLine($"Loading configuration from: {configPath}"); 
         if (!File.Exists(configPath))
         {
             CreateSampleConfig(configPath);

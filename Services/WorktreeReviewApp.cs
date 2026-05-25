@@ -184,10 +184,6 @@ public sealed class WorktreeReviewApp
     {
         var results = _repositoryValidator.ValidateAll(_config.Repositories);
 
-        ConsoleUi.Clear();
-        Console.WriteLine("Repository validation");
-        Console.WriteLine("=====================");
-
         foreach (var result in results)
         {
             var repoName = string.IsNullOrWhiteSpace(result.Repo.Name) ? "(missing name)" : result.Repo.Name;
