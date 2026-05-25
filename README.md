@@ -869,6 +869,6 @@ Possible future improvements include:
 
 ## License
 
-Choose a license before publishing this project publicly.
+# Git Worktree Review Utility
 
-For open-source community use, the MIT License is a common choice.
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
